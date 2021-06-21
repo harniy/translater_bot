@@ -1,0 +1,21 @@
+{
+  "name": "translate_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "_garniy_",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "node-telegram-bot-api": "^0.53.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
