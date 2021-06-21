@@ -27,7 +27,7 @@ bot.on('message', (msg) => {
 
         translateString(mainText, translateLang, chatId)
     }
-    if(text.match(/[0-9]/)){
+    if(text.match(/[0-9]/) && !text.match(/[a-z]/)){
         bot.sendMessage(chatId, 'Вы ввели цифты, а нужны буквы, например uk, en, fr')
     }
 });
