@@ -1,16 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
-const express = require('express');
 const axios = require('axios').default;
-const cors = require('cors');
 
-const app = express()
-
-app.use(cors())
-app.use(express.json())
-
-app.listen(8888, ()=>{
-    console.log('Server work on 8888 port')
-})
 
 let userText = ''
 
