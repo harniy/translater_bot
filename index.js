@@ -51,7 +51,7 @@ function defineLanguage(text, userLeng, chatId) {
              userText = text
             getLenguage(chatId)
          } 
-         if (response.data[0].language !== userLeng && userText === '') {
+         if (response.data[0].language !== userLeng && userText === '' && text.length > 2) {
             translateString(text, userLeng, chatId)
          }
       }).catch(function (error) {
