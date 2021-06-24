@@ -5,7 +5,7 @@ const axios = require('axios').default;
 let userText = ''
 
 // Bot token
-const token = '1797370285:AAHbaNs-NZ3iOTeLuI8Tfh2XmbDYrUWPg-M'
+const token = '1797370285:AAHXPXQ1R4rNMrpoS8uXNsp1z8D7CTCPN0g'
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, { polling: true });
