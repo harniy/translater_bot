@@ -5,7 +5,7 @@ const config = require('./config.json')
 
 let userText = ''
 
-// Bot token
+// bot token
 const token = config.token
 
 // Create a bot that uses 'polling' to fetch new updates
