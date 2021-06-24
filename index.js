@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios').default;
 const config = require('./config.json')
 
-//
+
 let userText = ''
 
 // Bot token
