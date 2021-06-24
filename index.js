@@ -1,11 +1,12 @@
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios').default;
+const config = require('./config.json')
 
 
 let userText = ''
 
 // Bot token
-const token = '1797370285:AAHXPXQ1R4rNMrpoS8uXNsp1z8D7CTCPN0g'
+const token = config.token
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, { polling: true });
